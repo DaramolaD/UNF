@@ -863,8 +863,8 @@ footer p:hover {
         padding-left: 25px;
     }
 }
-/* @media only screen and (max-width:450px)  {
+@media only screen and (max-width:450px)  {
     .blog .blog_content .img {
         flex-wrap: wrap;
     }
-} */
+}
