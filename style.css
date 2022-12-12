@@ -568,8 +568,8 @@ header .quote .text {
     background: #F3F2E7;
     border-radius: 10px;
     transform: translateY(-60px);
-    max-width: 90%;
-    width: 100%;
+    /* max-width: 90%; */
+    /* width: 100%; */
     margin: 0px auto;
 }
 .blog .blog_content .text {
@@ -844,6 +844,9 @@ footer p:hover {
     }
     .voluteer .content .text, .voluteer .content .images {
         width: 100%;
+    }
+    .love .content p {
+        font-size: 18px;
     }
 
 }
