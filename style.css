@@ -618,6 +618,7 @@ header .quote .text {
     width: 50%;
     display: flex;
     gap: 20px;
+    position: relative;
 }
 .blog .blog_content .img img {
     width: 100%;
@@ -856,5 +857,10 @@ footer p:hover {
     .blog .blog_content {
         padding-right: 25px;
         padding-left: 25px;
+    }
+}
+@media only screen and (max-width:450px)  {
+    .blog .blog_content .img {
+        flex-wrap: wrap;
     }
 }
